@@ -1,0 +1,6 @@
+unique_name: TPC-DS Benchmark Model - SF
+object_type: atscale_settings
+label: TPC-DS Benchmark Model - SF
+as_version: 1.0
+aggressive_agg_promotion: false
+build_speculative_aggs: false

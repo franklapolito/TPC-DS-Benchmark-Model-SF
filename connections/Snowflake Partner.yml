@@ -1,0 +1,6 @@
+unique_name: Snowflake Partner
+label: Snowflake Partner
+object_type: connection
+as_connection: Snowflake Partner
+database: SE_DEMO_LIBRARY
+schema: tpcds_10tb
