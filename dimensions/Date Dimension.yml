@@ -83,6 +83,8 @@ calculation_groups:
   - unique_name: Time Series
     label: Time Series
     folder: Time Series
+    name: Time Series
+    description: Time Series
 
     calculated_members:
 
@@ -93,6 +95,8 @@ calculation_groups:
         format: Standard
         hierarchy: Date Dimension
         template: Month Moving Average 3 Month
+        name: Month Moving Average 3 Month
+        description: Month Moving Average 3 Month
 
       - unique_name: Current
         description: The measure's value for the current dimension members in the
@@ -102,6 +106,7 @@ calculation_groups:
         hierarchy: Date Dimension
         template: Current
         is_default: true
+        name: Current
 
       - unique_name: Date Month Hierarchy Current vs Last Year
         expression: "(([Date Dimension].[Date Dimension].CurrentMember, [Measures].currentMember)\
@@ -111,6 +116,8 @@ calculation_groups:
         format: Standard
         hierarchy: Date Dimension
         template: Current vs Last Year
+        name: Date Month Hierarchy Current vs Last Year
+        description: Date Month Hierarchy Current vs Last Year
 
       - unique_name: Date Month Hierarchy Current vs Last Year Pct
         expression: "(([Date Dimension].[Date Dimension].CurrentMember, [Measures].currentMember)\
@@ -121,3 +128,5 @@ calculation_groups:
         format: Percent
         hierarchy: Date Dimension
         template: Current vs Last Year Pct
+        name: Current vs Last Year Pct
+        description: Current vs Last Year Pct

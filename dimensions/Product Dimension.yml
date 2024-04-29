@@ -79,6 +79,8 @@ calculation_groups:
   - unique_name: Total Percent
     label: Total Percent
     folder: Total Percent
+    name: Total Percent
+    description: Total Percent
 
     calculated_members:
 
@@ -88,6 +90,8 @@ calculation_groups:
         format: Percent
         hierarchy: Product Dimension
         template: Pct of Total
+        name: Pct of Total
+        description: Pct of Total
 
       - unique_name: Current
         description: The measure's value for the current dimension members in the
@@ -97,6 +101,7 @@ calculation_groups:
         hierarchy: Product Dimension
         template: Current
         is_default: true
+        name: Current
 
       - unique_name: Product Dimension Pct of Parent
         expression: "([Product Dimension].[Product Dimension].CurrentMember, [Measures].currentMember)\
@@ -104,3 +109,5 @@ calculation_groups:
         format: Percent
         hierarchy: Product Dimension
         template: Pct of Parent
+        name: Pct of Parent
+        description: Pct of Parent
