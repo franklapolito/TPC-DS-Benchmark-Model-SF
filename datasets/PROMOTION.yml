@@ -1,7 +1,7 @@
 unique_name: PROMOTION
 object_type: dataset
 label: PROMOTION
-connection_id: Snowflake Partner
+connection_id: wh
 table: promotion
 
 columns:
