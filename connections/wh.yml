@@ -1,6 +1,6 @@
 unique_name: wh
 object_type: connection
-label: Snowflake Partner
+label: wh
 as_connection: Snowflake Partner
 database: SE_DEMO_LIBRARY
 schema: tpcds_10tb
