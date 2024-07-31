@@ -1,4 +1,0 @@
-[submodule "global_shared"]
-	path = global_shared
-	url = https://github.com/danielatscale/global_shared
-	branch = main
