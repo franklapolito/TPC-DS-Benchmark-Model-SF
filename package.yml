@@ -1,0 +1,6 @@
+version: 1
+packages:
+ - name: global_shared
+   url: https://github.com/danielatscale/global_shared
+   branch: main
+   version: commit:48d05409beab54ab19a67cf59b9c3f521e3ec06a
