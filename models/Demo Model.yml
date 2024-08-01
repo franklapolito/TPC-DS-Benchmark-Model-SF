@@ -1,0 +1,14 @@
+unique_name: Demo Model
+object_type: model
+label: Demo Model
+metrics:
+  - unique_name: Avg Cost
+relationships:
+  - unique_name: promotion_P_PROMO_SK_to_Cost_Cost Level
+    from:
+      dataset: promotion
+      join_columns:
+        - P_PROMO_SK
+    to:
+      dimension: Cost
+      level: Cost Level

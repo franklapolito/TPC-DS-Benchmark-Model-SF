@@ -1,0 +1,18 @@
+unique_name: Cost
+object_type: dimension
+label: Cost
+hierarchies:
+  - unique_name: Cost Hierarchy
+    label: Cost Hierarchy
+    levels:
+      - unique_name: Cost Level
+level_attributes:
+  - unique_name: Cost Level
+    label: Cost Level
+    contains_unique_names: false
+    dataset: promotion
+    is_unique_key: false
+    key_columns:
+      - P_PROMO_SK
+    name_column: P_COST
+type: standard
