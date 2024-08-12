@@ -4,6 +4,7 @@ label: Customer Dimension
 hierarchies:
   - unique_name: Customer Dimension
     label: Customer Dimension
+    folder: Customer Dimension
     levels:
       - unique_name: Customer Country
       - unique_name: Customer State
