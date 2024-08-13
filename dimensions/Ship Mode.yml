@@ -1,0 +1,18 @@
+unique_name: Ship Mode
+object_type: dimension
+label: Ship Mode
+hierarchies:
+  - unique_name: Ship Mode
+    label: Ship Mode
+    levels:
+      - unique_name: Ship Mode Level
+level_attributes:
+  - unique_name: Ship Mode Level
+    label: Ship Mode Level
+    contains_unique_names: false
+    dataset: web_sales
+    is_unique_key: false
+    key_columns:
+      - WS_SHIP_MODE_SK
+    name_column: WS_SHIP_MODE_SK
+type: standard

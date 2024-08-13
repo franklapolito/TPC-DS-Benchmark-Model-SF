@@ -1,12 +1,14 @@
 unique_name: Demo Model
 object_type: model
 label: Demo Model
-metrics: []
+metrics:
+  - unique_name: m_web_sales_WS_SALES_PRICE_avg
 relationships:
-  - unique_name: web_sales_empty_dimension
+  - unique_name: web_sales_WS_SHIP_MODE_SK_to_Ship Mode_Ship Mode Level
     from:
       dataset: web_sales
-      join_columns: []
+      join_columns:
+        - WS_SHIP_MODE_SK
     to:
-      dimension: ''
-      level: ''
+      dimension: Ship Mode
+      level: Ship Mode Level
