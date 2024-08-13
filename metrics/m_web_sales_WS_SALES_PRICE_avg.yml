@@ -1,6 +1,0 @@
-unique_name: m_web_sales_WS_SALES_PRICE_avg
-object_type: metric
-label: Ws Sales Price Avg
-calculation_method: sum
-column: WS_SALES_PRICE
-dataset: web_sales
