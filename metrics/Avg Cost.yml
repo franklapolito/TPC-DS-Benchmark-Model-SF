@@ -1,6 +1,0 @@
-unique_name: Avg Cost
-object_type: metric
-label: Avg Cost
-calculation_method: average
-column: P_COST
-dataset: promotion
