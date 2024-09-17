@@ -1,6 +1,6 @@
 version: 1
 packages:
-  - version: commit:67dbd10a2fd5aaaab723bb2ff6e0c2781cbd6b34
+  - version: commit:0bc07f957c5bda75c5e8baad11f3edcfd4b4a219
     name: global_shared
     url: https://github.com/franklapolito/global_shared
     branch: main
