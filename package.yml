@@ -2,5 +2,5 @@ version: 1
 packages:
   - version: commit:07fbf686cd80200e218aa35582bc4c696dbc68e5
     name: global_shared
-    url: https://github.com/danielatscale/global_shared
+    url: https://github.com/franklapolito/global_shared
     branch: main
