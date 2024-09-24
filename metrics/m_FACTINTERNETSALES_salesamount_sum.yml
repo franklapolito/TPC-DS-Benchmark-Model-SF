@@ -1,0 +1,6 @@
+unique_name: m_FACTINTERNETSALES_salesamount_sum
+object_type: metric
+label: Max Sales Amount
+calculation_method: maximum
+column: salesamount
+dataset: FACTINTERNETSALES

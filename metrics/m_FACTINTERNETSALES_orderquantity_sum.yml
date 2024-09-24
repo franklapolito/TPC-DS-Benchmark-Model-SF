@@ -1,0 +1,6 @@
+unique_name: m_FACTINTERNETSALES_orderquantity_sum
+object_type: metric
+label: Avg Order Quantity
+calculation_method: average
+column: orderquantity
+dataset: FACTINTERNETSALES
