@@ -1,6 +1,6 @@
 unique_name: TPC-DS Benchmark Model
 object_type: model
-label: TPC-DS Benchmark Model
+label: TPC-DS Benchmark Model - 2/3
 aggregates:
   - unique_name: Store Sales
     label: Store Sales
